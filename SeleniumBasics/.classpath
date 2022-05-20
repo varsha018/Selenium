@@ -51,7 +51,6 @@
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/lib/opentelemetry-sdk-trace-1.13.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/lib/opentelemetry-semconv-1.13.0-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/lib/reactive-streams-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/lib/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-api-4.1.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-api-4.1.4-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-chrome-driver-4.1.4.jar"/>
@@ -86,5 +85,7 @@
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-safari-driver-4.1.4-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-support-4.1.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/selenium-java-4.1.4/selenium-support-4.1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Downloads/varsha_work_downloads/slf4j-simple-1.7.36.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

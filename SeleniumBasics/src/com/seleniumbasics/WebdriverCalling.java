@@ -12,8 +12,12 @@ public class WebdriverCalling {
 
 		  //WebDriver is an Interface
 		
-		WebDriver driver = new ChromeDriver();
+		//All the concepts of Java has been implemented by Selenium and provided to us in the form of jar files..
+		//For implementing these concepts we need to have all the jar files..
 		
+		WebDriver driver = new ChromeDriver();  
+												//chromedrive is a "class" which is implementing webdriver "interface"
+												//parent interface(webdriver) referece variable(driver) calling class object >> dynamic polymorphism....
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().getImplicitWaitTimeout();
