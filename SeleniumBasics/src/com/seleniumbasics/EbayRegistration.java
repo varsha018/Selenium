@@ -13,8 +13,8 @@ public class EbayRegistration {
 
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().getImplicitWaitTimeout();
-
+		driver.manage().timeouts().getImplicitWaitTimeout(); //implicit wait is a dynamic wait>> if element is loaded in 2 sec it will not wait for rest 28 sec(as specified)..
+		driver.manage().timeouts().getPageLoadTimeout(); //page load
 		driver.get("https://www.ebay.com/");
 
 		String title = driver.getTitle();

@@ -28,6 +28,11 @@ public class WindowPopUpHandle {
 		driver.findElement(By.name("fileupload")).sendKeys("C:\\Users\\admin\\Downloads\\varsha_work_downloads\\dataprovider.xlsx ");
 		
 		
+		//if your element not found in the specific page.. switch to ..frame and then inspect your element...
+		
+	//*******************frame is overloaded..accepts integer and string values..
+		
+	//	driver.switchTo().frame("mainframe"); //when you want to swtch to other frame and then perform your action
 		
 		
 		
