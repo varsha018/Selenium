@@ -31,7 +31,7 @@ public class Navigations {   //when you want to jump from one website to another
 		
 		driver.navigate().forward();
 		
-		driver.navigate().refresh();
+		driver.navigate().refresh(); //to refersh the webpage.
 		
 		
 		

@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HandleWindowPopup {  //windowhandle is an API
+	
+	//Alert
+	//File Upload
+	//Window Popup
 
 	public static void main(String[] args) {
 		
