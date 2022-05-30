@@ -16,6 +16,7 @@ public class HighlightElements {
 
 	public static void main(String[] args) throws IOException {
 		
+		//JavaScriptExecuter is an Interface
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\chromedriver.exe");
 
