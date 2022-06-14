@@ -34,6 +34,7 @@ public class ExplicitWaitConcept {
 	//Explicit wait defined method...
 	
 	public static void clickOn(WebDriver driver , WebElement locator , int timeout) {
+		
 		new WebDriverWait (driver , Duration.ofSeconds(2)).ignoring(StaleElementReferenceException.class).until(ExpectedConditions.elementToBeClickable(locator));
 		locator.click();
 		

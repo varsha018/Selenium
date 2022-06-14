@@ -57,8 +57,11 @@ public class FindElementsConcept {   //to get list of webelements ..generally we
 		
 		
 		/*
-		 * //for loop:>>> to get text of links use >> gettext() for(int i=0 ;
-		 * i<links.size(); i++) { System.out.println(links.get(i).getText());
+		 * //for loop:>>> to get text of links use >> 
+		 * gettext() 
+		 * for(int i=0 ;
+		 * i<links.size(); i++) 
+		 * { System.out.println(links.get(i).getText());
 		 * 
 		 * }
 		 */

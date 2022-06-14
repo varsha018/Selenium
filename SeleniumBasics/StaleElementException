@@ -1,0 +1,30 @@
+
+stale:something not fresh
+
+staleElement : something gone from the page, Selenium cannot interact with objects which are not available not page, 
+maybe element is not visible on the page,maybe page got refreshed.. xpath is absolutly fine,but element not visible.
+
+
+we have some components which are AJAX calls: Asynchronous java script XML calls
+some product info, some images
+
+during booking flight tickets: sometimes only price section gets refreshed, sometimes some images are refreshed..so these are AJAX components.
+								whole page does not gets refreshed, only these AJAX components/calls get refreshed.
+								
+when you locate a webElement >>> a unique identifier ID/dynamic ID is assigned (ID 1: 12122323242542-1)>>> (this ID gets expired)
+									when you refresh the page, that ID changes(ID 1: 1212232324282-1)
+							 >>> and you get StaleElement Exception
+							 >> You never refersh the entire page, but that component got refreshed..id changes
+							 >>so we get stale element>>AJAX component got refreshed.
+							 
+Never refresh your page..
+
+how to overcome:  use implicit and explicit wait.
+							 
+							 				
+
+
+
+
+
+
